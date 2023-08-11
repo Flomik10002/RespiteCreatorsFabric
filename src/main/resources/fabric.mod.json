@@ -1,0 +1,38 @@
+{
+	"schemaVersion": 1,
+	"id": "respitecreators",
+	"version": "${version}",
+	"name": "Respite Creators",
+	"description": "Making automation between Farmer's Respite and Create",
+	"authors": [
+		"Flomik"
+	],
+	"contact": {
+		"homepage": "https://github.com/Flomik10002/RespiteCreatorsFabric",
+		"sources": "https://github.com/Flomik10002/RespiteCreatorsFabric",
+		"issues": "https://github.com/Flomik10002/RespiteCreatorsFabric/issues"
+	},
+	"license": "CC0-1.0",
+	"icon": "assets/respitecreators/icon.png",
+	"environment": "*",
+	"entrypoints": {
+		"main": [
+			"flomik.respitecreators.RespiteCreatorsMod"
+		],
+		"client": [
+			"flomik.respitecreators.respitecreatorsModClient"
+		]
+	},
+	"mixins": [
+		"respitecreators.mixins.json"
+	],
+	"depends": {
+		"fabricloader": ">=0.14.22",
+		"minecraft": "~1.19.2",
+		"java": ">=17",
+		"fabric-api": "*"
+	},
+	"suggests": {
+		"another-mod": "*"
+	}
+}
