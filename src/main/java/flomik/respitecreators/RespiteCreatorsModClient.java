@@ -14,30 +14,6 @@ public class RespiteCreatorsModClient implements ClientModInitializer {
     @Override
     public void onInitializeClient() {
         ClientSpriteRegistryCallback.event(PlayerScreenHandler.BLOCK_ATLAS_TEXTURE).register((atlasTexture, registry) -> {
-            registry.register(new Identifier("respitecreators:fluid/tomato_sauce_still"));
-            registry.register(new Identifier("respitecreators:fluid/tomato_sauce_flow"));
-            registry.register(new Identifier("respitecreators:fluid/hot_cocoa_still"));
-            registry.register(new Identifier("respitecreators:fluid/hot_cocoa_flow"));
-            registry.register(new Identifier("respitecreators:fluid/beetroot_soup_still"));
-            registry.register(new Identifier("respitecreators:fluid/beetroot_soup_flow"));
-            registry.register(new Identifier("respitecreators:fluid/chicken_soup_still"));
-            registry.register(new Identifier("respitecreators:fluid/chicken_soup_flow"));
-            registry.register(new Identifier("respitecreators:fluid/noodle_soup_still"));
-            registry.register(new Identifier("respitecreators:fluid/noodle_soup_flow"));
-            registry.register(new Identifier("respitecreators:fluid/pumpkin_soup_still"));
-            registry.register(new Identifier("respitecreators:fluid/pumpkin_soup_flow"));
-            registry.register(new Identifier("respitecreators:fluid/vegetable_soup_still"));
-            registry.register(new Identifier("respitecreators:fluid/vegetable_soup_flow"));
-            registry.register(new Identifier("respitecreators:fluid/fish_stew_still"));
-            registry.register(new Identifier("respitecreators:fluid/fish_stew_flow"));
-            registry.register(new Identifier("respitecreators:fluid/beef_stew_still"));
-            registry.register(new Identifier("respitecreators:fluid/beef_stew_flow"));
-            registry.register(new Identifier("respitecreators:fluid/rabbit_stew_still"));
-            registry.register(new Identifier("respitecreators:fluid/rabbit_stew_flow"));
-            registry.register(new Identifier("respitecreators:fluid/mushroom_stew_still"));
-            registry.register(new Identifier("respitecreators:fluid/mushroom_stew_flow"));
-            registry.register(new Identifier("respitecreators:fluid/glow_berry_custard_still"));
-            registry.register(new Identifier("respitecreators:fluid/glow_berry_custard_flow"));
             registry.register(new Identifier("respitecreators:fluid/rose_hip_jam_still"));
             registry.register(new Identifier("respitecreators:fluid/rose_hip_jam_flow"));
             registry.register(new Identifier("respitecreators:fluid/blazing_chili_still"));
