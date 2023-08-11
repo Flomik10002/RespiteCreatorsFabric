@@ -14,8 +14,6 @@ public class ModItemsRegister {
             new Item(new FabricItemSettings().group(ModItemsGroup.main).recipeRemainder(Items.BOWL).food(new FoodComponent.Builder().hunger(3).saturationModifier(0.3f).build())));
     public static final Item INCOMPLETE_ROSE_HIP_PIE = registerItem("incomplete_rose_hip_pie",
             new Item(new FabricItemSettings().group(ModItemsGroup.main).food(new FoodComponent.Builder().hunger(3).saturationModifier(0.3f).build())));
-    public static final Item INCOMPLETE_STEAK_AND_POTATOES = registerItem("incomplete_steak_and_potatoes",
-            new Item(new FabricItemSettings().group(ModItemsGroup.main).recipeRemainder(Items.BOWL).food(new FoodComponent.Builder().hunger(3).saturationModifier(0.3f).build())));
     public static final Item INCOMPLETE_COFFEE_CAKE = registerItem("incomplete_coffee_cake",
             new Item(new FabricItemSettings().group(ModItemsGroup.main).food(new FoodComponent.Builder().hunger(3).saturationModifier(0.3f).build())));
     public static final Item COFFEE_CAKE_SPONGE = registerItem("coffee_cake_sponge",
