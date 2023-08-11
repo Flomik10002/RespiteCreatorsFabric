@@ -20,7 +20,7 @@
 			"flomik.respitecreators.RespiteCreatorsMod"
 		],
 		"client": [
-			"flomik.respitecreators.respitecreatorsModClient"
+			"flomik.respitecreators.RespiteCreatorsModClient"
 		]
 	},
 	"mixins": [
