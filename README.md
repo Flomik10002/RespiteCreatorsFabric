@@ -26,4 +26,4 @@
 <h4>• English (en_us) - Flomik<h4/>
 <h4>• Russian (ru_ru) - Flomik<h4/>
 
-<a href="https://www.curseforge.com/minecraft/mc-mods/respite-creators-fabric" rel="noopener nofollow ugc">Farmers Respite add-on.</a>
+<a href="https://www.curseforge.com/minecraft/mc-mods/delightful-creators-fabric" rel="noopener nofollow ugc">Delightful Creators add-on.</a>
