@@ -4,7 +4,7 @@
 # Respite Creators 
 
 [![](https://cf.way2muchnoise.eu/901711.svg?badge_style=for_the_badge)][CURSEFORGE]
-[![](https://img.shields.io/modrinth/dt/jmJ87gsb?color=brightgreen&logo=modrinth&logoColor=brightgreen&style=for-the-badge)][MODRINTH]
+[![](https://img.shields.io/modrinth/dt/XDKcRhiQ?color=brightgreen&logo=modrinth&logoColor=brightgreen&style=for-the-badge)][MODRINTH]
 
 <h1>About: </h1>
 <h4>Respite Creators is an addon for Farmer's Respite and Create which adds new recipes using Create. Currently adds new fluids and recipes, which are useful on modpacks.<h4/>
