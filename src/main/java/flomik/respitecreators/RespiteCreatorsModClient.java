@@ -5,22 +5,12 @@ import net.fabricmc.api.ClientModInitializer;
 import net.fabricmc.fabric.api.blockrenderlayer.v1.BlockRenderLayerMap;
 import net.fabricmc.fabric.api.client.render.fluid.v1.FluidRenderHandlerRegistry;
 import net.fabricmc.fabric.api.client.render.fluid.v1.SimpleFluidRenderHandler;
-import net.fabricmc.fabric.api.event.client.ClientSpriteRegistryCallback;
 import net.minecraft.client.render.RenderLayer;
-import net.minecraft.screen.PlayerScreenHandler;
 import net.minecraft.util.Identifier;
 
 public class RespiteCreatorsModClient implements ClientModInitializer {
     @Override
     public void onInitializeClient() {
-        ClientSpriteRegistryCallback.event(PlayerScreenHandler.BLOCK_ATLAS_TEXTURE).register((atlasTexture, registry) -> {
-            registry.register(new Identifier("respitecreators:fluid/rose_hip_jam_still"));
-            registry.register(new Identifier("respitecreators:fluid/rose_hip_jam_flow"));
-            registry.register(new Identifier("respitecreators:fluid/blazing_chili_still"));
-            registry.register(new Identifier("respitecreators:fluid/blazing_chili_flow"));
-            registry.register(new Identifier("respitecreators:fluid/tea_curry_still"));
-            registry.register(new Identifier("respitecreators:fluid/tea_curry_flow"));
-        });
 
         FluidRenderHandlerRegistry.INSTANCE.register(ModFluidsRegister.STILL_PURULENT_TEA, ModFluidsRegister.FLOWING_PURULENT_TEA, new SimpleFluidRenderHandler(
                 new Identifier("minecraft:block/water_still"),
@@ -131,18 +121,18 @@ public class RespiteCreatorsModClient implements ClientModInitializer {
         ));
 
         FluidRenderHandlerRegistry.INSTANCE.register(ModFluidsRegister.STILL_ROSE_HIP_JAM, ModFluidsRegister.FLOWING_ROSE_HIP_JAM, new SimpleFluidRenderHandler(
-                new Identifier("respitecreators:fluid/rose_hip_jam_still"),
-                new Identifier("respitecreators:fluid/rose_hip_jam_flow")
+                new Identifier("respitecreators:block/rose_hip_jam_still"),
+                new Identifier("respitecreators:block/rose_hip_jam_flow")
         ));
 
         FluidRenderHandlerRegistry.INSTANCE.register(ModFluidsRegister.STILL_TEA_CURRY, ModFluidsRegister.FLOWING_TEA_CURRY, new SimpleFluidRenderHandler(
-                new Identifier("respitecreators:fluid/tea_curry_still"),
-                new Identifier("respitecreators:fluid/tea_curry_flow")
+                new Identifier("respitecreators:block/tea_curry_still"),
+                new Identifier("respitecreators:block/tea_curry_flow")
         ));
 
         FluidRenderHandlerRegistry.INSTANCE.register(ModFluidsRegister.STILL_BLAZING_CHILI, ModFluidsRegister.FLOWING_BLAZING_CHILI, new SimpleFluidRenderHandler(
-                new Identifier("respitecreators:fluid/blazing_chili_still"),
-                new Identifier("respitecreators:fluid/blazing_chili_flow")
+                new Identifier("respitecreators:block/blazing_chili_still"),
+                new Identifier("respitecreators:block/blazing_chili_flow")
         ));
 
         BlockRenderLayerMap.INSTANCE.putFluids(RenderLayer.getTranslucent(), ModFluidsRegister.STILL_PURULENT_TEA, ModFluidsRegister.FLOWING_PURULENT_TEA);

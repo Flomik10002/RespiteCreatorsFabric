@@ -42,11 +42,33 @@
   "item.respitecreators.blazing_chili_bucket": "Blazing Chili Bucket",
   "block.respitecreators.blazing_chili_block": "Blazing Chili",
 
+  "fluid.respitecreators.yellow_tea": "Yellow Tea",
+  "fluid.respitecreators.rose_hip_tea": "Rose Hip Tea",
+  "fluid.respitecreators.purulent_tea": "Purulent Tea",
+  "fluid.respitecreators.green_tea": "Green Tea",
+  "fluid.respitecreators.dandelion_tea": "Dandelion Tea",
+  "fluid.respitecreators.coffee": "Coffee",
+  "fluid.respitecreators.black_tea": "Black Tea",
+  "fluid.respitecreators.long_yellow_tea": "Long Yellow Tea",
+  "fluid.respitecreators.long_green_tea": "Long Green Tea",
+  "fluid.respitecreators.long_dandelion_tea": "Long Dandelion Tea",
+  "fluid.respitecreators.long_coffee": "Long Coffee",
+  "fluid.respitecreators.long_black_tea": "Long Black Tea",
+  "fluid.respitecreators.strong_yellow_tea": "Strong Yellow Tea",
+  "fluid.respitecreators.strong_rose_hip_tea": "Strong Rose Hip Tea",
+  "fluid.respitecreators.strong_purulent_tea": "Strong Purulent Tea",
+  "fluid.respitecreators.strong_green_tea": "Strong Green Tea",
+  "fluid.respitecreators.strong_coffee": "Strong Coffee",
+  "fluid.respitecreators.strong_black_tea": "Strong Black Tea",
+  "fluid.respitecreators.rose_hip_jam": "Rose Hip Jam",
+  "fluid.respitecreators.tea_curry": "Tea Curry",
+  "fluid.respitecreators.blazing_chili": "Blazing Chili",
+
   "item.respitecreators.incomplete_black_cod": "Incomplete Black Cod",
   "item.respitecreators.incomplete_rose_hip_pie": "Incomplete Rose Hip Pie",
   "item.respitecreators.incomplete_coffee_cake": "Incomplete Coffee Cake",
   "item.respitecreators.coffee_cake_sponge": "Coffee Cake Sponge",
   "item.respitecreators.coffee_cake_coating": "Coffee Cake Coating",
 
-  "itemGroup.respitecreators.main": "Respite Creators"
+  "itemgroup.respite_creators": "Respite Creators"
 }

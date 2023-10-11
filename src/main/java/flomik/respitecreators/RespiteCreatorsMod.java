@@ -2,6 +2,7 @@ package flomik.respitecreators;
 
 import flomik.respitecreators.init.ModFluidsRegister;
 import flomik.respitecreators.init.ModItemsRegister;
+import flomik.respitecreators.item.ModItemsGroup;
 import net.fabricmc.api.ModInitializer;
 import org.slf4j.Logger;
 import org.slf4j.LoggerFactory;
@@ -14,5 +15,6 @@ public class RespiteCreatorsMod implements ModInitializer {
 	public void onInitialize() {
 		ModFluidsRegister.register();
 		ModItemsRegister.registerModItems();
+		ModItemsGroup.registerModItemGroup();
 	}
 }
