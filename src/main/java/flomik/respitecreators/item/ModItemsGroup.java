@@ -13,7 +13,7 @@ import net.minecraft.util.Identifier;
 
 public class ModItemsGroup {
     public static final ItemGroup RESPITE_CREATORS = Registry.register(Registries.ITEM_GROUP,
-            new Identifier(RespiteCreatorsMod.MOD_ID, "main"),
+            new Identifier(RespiteCreatorsMod.MOD_ID, "respite_creators"),
             FabricItemGroup.builder().displayName(Text.translatable("itemgroup.respite_creators"))
                     .icon(() -> new ItemStack(ModItemsRegister.INCOMPLETE_ROSE_HIP_PIE)).entries((displayContext, entries) -> {
                         entries.add(ModItemsRegister.INCOMPLETE_COFFEE_CAKE);
