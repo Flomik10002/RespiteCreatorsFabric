@@ -25,5 +25,6 @@
 <h1>Localization: </h1>
 <h4>• English (en_us) - Flomik<h4/>
 <h4>• Russian (ru_ru) - Flomik<h4/>
+<h4>• Mexican Spanish (es_mx) - TheLegendofSaram<h4/>
 
 <a href="https://www.curseforge.com/minecraft/mc-mods/delightful-creators-fabric" rel="noopener nofollow ugc">Delightful Creators add-on.</a>
